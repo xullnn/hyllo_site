@@ -1,0 +1,23 @@
+---
+layout: qas
+---
+
+<div class="faqs">
+
+  {% for category in site.qas %}
+    <div class="qa_category">
+      <h3>{{ category.category_title }}</h3>
+
+      {% for qa in category.qas %}
+        <details open>
+          <summary><strong>{{ qa.question }}</strong></summary>
+          <p>{{ qa.answer }}</p>
+        </details>
+      {% endfor %}
+
+    </div>
+  {% endfor %}
+
+
+</div>
+

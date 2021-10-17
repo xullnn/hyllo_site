@@ -1,0 +1,25 @@
+.principles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  .principle_item {
+    flex-basis: 35%;
+    background-color: rgb(245,245,245);
+    padding: 0.5em 1.5em;
+    margin-bottom: 2em;
+    border-radius: 5px;
+  }
+}
+
+
+.principle_description {
+  font-size: 0.8em;
+}
+
+#principles_page_title {
+  width: 100%;
+  align-content: center;
+  padding: 0 7.2%;
+}

@@ -1,0 +1,89 @@
+.index {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  img {
+    width: 100%;
+    display: block;
+  }
+}
+
+.banner {
+  background-color: rgb(245, 245, 245);
+  flex-basis: 100%;
+  // aspect-ratio: 16 / 9;
+  // border: 2px solid grey;
+  // padding: 20px;
+}
+
+.flex-box-large {
+  position: relative;
+  box-sizing: border-box;
+  background-color: rgb(245, 245, 245);
+  aspect-ratio: 1 / 1;
+  width: 50%;
+  // border: 1px solid grey;
+  padding: 5px;
+
+
+  @media (max-width: 700px) {
+    width: 100%;
+  }
+}
+
+// text overlay to large square images
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: grey;
+}
+
+.flex-box-large:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  z-index: 99;
+  opacity: 1;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.section {
+  display: flex;
+  flex-direction: row;
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
+
+  .section_image {
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+  }
+
+  .section_text {
+    margin: 20px;
+  }
+
+  img {
+    border-radius: 20px;
+  }
+}

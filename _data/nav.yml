@@ -1,0 +1,12 @@
+- name: Hyllo
+  link: /
+- name: Story
+  link: /story.html
+- name: About
+  link: /about.html
+- name: QAs
+  link: qas.html
+- name: Principles
+  link: design_principles.html
+- name: Contact
+  link: contact.html
