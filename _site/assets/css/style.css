@@ -52,19 +52,19 @@ summary { color: #7ddffe; }
 
 .about { width: 100%; display: flex; justify-content: space-around; flex-wrap: wrap; }
 
-@font-face { font-family: "Nunito"; src: url("hyllo_site/assets/fonts/Nunito/Nunito-Regular.ttf"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "Nunito"; src: url("/assets/fonts/Nunito/Nunito-Regular.ttf"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: "Nunito"; src: url("hyllo_site/assets/fonts/Nunito/Nunito-Italic.ttf"); font-weight: normal; font-style: italic; }
+@font-face { font-family: "Nunito"; src: url("/assets/fonts/Nunito/Nunito-Italic.ttf"); font-weight: normal; font-style: italic; }
 
-@font-face { font-family: "Nunito"; src: url("hyllo_site/assets/fonts/Nunito/Nunito-Light.ttf"); font-weight: lighter; font-style: normal; }
+@font-face { font-family: "Nunito"; src: url("/assets/fonts/Nunito/Nunito-Light.ttf"); font-weight: lighter; font-style: normal; }
 
-@font-face { font-family: "Nunito"; src: url("hyllo_site/assets/fonts/Nunito/Nunito-LightItalic.ttf"); font-weight: lighter; font-style: italic; }
+@font-face { font-family: "Nunito"; src: url("/assets/fonts/Nunito/Nunito-LightItalic.ttf"); font-weight: lighter; font-style: italic; }
 
-@font-face { font-family: "Nunito"; src: url("hyllo_site/assets/fonts/Nunito/Nunito-Bold.ttf"); font-weight: bold; font-style: normal; }
+@font-face { font-family: "Nunito"; src: url("/assets/fonts/Nunito/Nunito-Bold.ttf"); font-weight: bold; font-style: normal; }
 
-@font-face { font-family: "Nunito"; src: url("hyllo_site/assets/fonts/Nunito/Nunito-BoldItalic.ttf"); font-weight: bold; font-style: italic; }
+@font-face { font-family: "Nunito"; src: url("/assets/fonts/Nunito/Nunito-BoldItalic.ttf"); font-weight: bold; font-style: italic; }
 
-@font-face { font-family: "Nunito"; src: url("hyllo_site/assets/fonts/Nunito/Nunito-SemiBold.ttf"); font-weight: 600; font-style: normal; }
+@font-face { font-family: "Nunito"; src: url("/assets/fonts/Nunito/Nunito-SemiBold.ttf"); font-weight: 600; font-style: normal; }
 
 * { box-sizing: border-box; }
 
