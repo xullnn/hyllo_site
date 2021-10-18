@@ -1,5 +1,5 @@
 <div class="nav">
   {% for item in site.data.nav %}
-    <p class="nav_item"><a href="{{ site.url + item.link }}">{{ item.name }}</a></p>
+    <p class="nav_item"><a href="{{ site.url | append: item.link }}">{{ item.name }}</a></p>
   {% endfor %}
 </div>

@@ -1,9 +1,9 @@
 - name: Hyllo
-  link: /
+  link: 
 - name: Story
-  link: /story.html
+  link: story.html
 - name: About
-  link: /about.html
+  link: about.html
 - name: QAs
   link: qas.html
 - name: Principles
