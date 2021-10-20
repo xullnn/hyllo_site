@@ -77,7 +77,7 @@ If an positive/negative pattern emerges repeatedly, then we can do something to 
 20 participants were recruited via a test service [maze](https://app.maze.co/) to finish a usability test on the mid-fi prototype. They were asked to finish a series of missions using the interactive prototype of Hyllo and then to answer various questions based on their experience.
 
 - [The original Maze test link](https://t.maze.co/51572533)
-- [The complete Research report](https://1drv.ms/p/s!Apq2PZcP-VGpiwb63p_hbkX7M4B3?e=juwCVb)
+- [The complete Research report](https://1drv.ms/p/s!Apq2PZcP-VGpiwbMxeTKqD6bntwV?e=UdWvg3)
 
 ### Usability Test
 

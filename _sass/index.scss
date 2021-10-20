@@ -72,11 +72,13 @@
   flex-direction: row;
   border-top: 10px solid white;
   border-bottom: 10px solid white;
+  align-items: center;
 
   .section_image {
     height: 250px;
     width: 250px;
     padding: 10px;
+    align-self: center;
   }
 
   .section_text {
